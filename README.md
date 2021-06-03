@@ -1,24 +1,21 @@
-# Lumen PHP Framework
+# Melalie Hometest
+Muhammad Tegar Santosaputra, Backend Engineer. 
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+### Documentation & Automated Test
+https://documenter.getpostman.com/view/6456356/TzY3Bvij
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## How to import raw data to backend
+1. [restaurants.json](https://drive.google.com/file/d/1UcKCigtaIeH703ZLbDacaAFCrlkngvIz/view?usp=sharing) and [users.json](https://drive.google.com/file/d/1syj-RpQCohXvJiV5vkG74vL9szGCLYem/view?usp=sharing) separated into relational data. So, there will be 4 table with relation like this.  
+![enter image description here](https://lh3.googleusercontent.com/-iGMOM2Zyq9U/YLhFy8kJV3I/AAAAAAAALKc/8y2h_LEwEaofKQXt1PzLeLZBQ1y-ZyMpwCLcBGAsYHQ/image.png)
 
-## Official Documentation
+2. To convert no-relational data to sql, use this API.  
+![enter image description here](https://lh3.googleusercontent.com/-2I4GKJkvqco/YLhGSzMTl0I/AAAAAAAALKk/uhFF7vaJ8_4oLkof_bdeW5Qg1RcIFsiYgCLcBGAsYHQ/image.png)
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+## How to set up and start the backend server
+Just commit and push git to this repository. Heroku will deploy automatically.
 
-## Contributing
+## How to run the test suit & The API documentation
+Using [postman test and documenter](https://documenter.getpostman.com/view/6456356/TzY3Bvij).
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## The URL to the API
+https://melalie-meal-delivery-api.herokuapp.com/
